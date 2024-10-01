@@ -1,0 +1,63 @@
+Body {
+    Font-family: Arial, sans-serif;
+    Margin: 0;
+    Padding: 0;
+    Display: flex;
+    Flex-direction: column;
+    Align-items: center;
+    Justify-content: center;
+    Min-height: 100vh;
+    Background-color: #f0f0f0;
+}
+
+Header {
+    Background-color: #4CAF50;
+    Color: white;
+    Padding: 1em;
+    Text-align: center;
+    Width: 100%;
+}
+
+Main {
+    Background-color: white;
+    Padding: 2em;
+    Border-radius: 8px;
+    Box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+Form {
+    Display: flex;
+    Flex-direction: column;
+}
+
+.course {
+    Margin-bottom: 1em;
+}
+
+Label {
+    Margin-right: 0.5em;
+}
+
+Input {
+    Margin-right: 1em;
+}
+
+Button {
+    Margin-top: 1em;
+    Padding: 0.5em;
+    Background-color: #4CAF50;
+    Color: white;
+    Border: none;
+    Border-radius: 4px;
+    Cursor: pointer;
+}
+
+Button:hover {
+    Background-color: #45a049;
+}
+
+#result {
+    Margin-top: 1em;
+    Font-size: 1.2em;
+    Color: #333;
+}
